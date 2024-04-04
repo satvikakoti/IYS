@@ -1,0 +1,238 @@
+.MessageFormContainer {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100%;
+}
+
+.MessagesForm {
+  margin: 30px auto 50px auto;
+  padding: 30px 0px;
+  width: 80%;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+.MessageTitle {
+  font-family: "Playfair Display";
+  color: #f3890d;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+.messagesContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.MessagesTable {
+  width: 80%;
+}
+
+thead,
+tbody {
+  border: 2px solid rgb(207, 207, 207);
+}
+
+tbody:hover {
+  background-color: rgb(236, 236, 236);
+  transition: 0.3s;
+}
+
+td,
+th {
+  padding: 20px;
+}
+
+th,
+td *:not(a) {
+  font-size: 20px;
+}
+
+td {
+  font-size: 15px;
+}
+
+.spinner-border {
+  color: #f3890d;
+  width: 50px;
+  height: 50px;
+}
+
+.SpinnerContainer {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.DateCreatedColumn {
+  justify-content: space-between;
+  display: flex;
+}
+
+.NewMessageBtn {
+  width: 100%;
+  height: 100%;
+}
+
+.NewMessageBtn:link,
+.NewMessageBtn:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.NewMessageBtn:hover {
+  color: #f3890d;
+  text-decoration: none;
+}
+
+.New_MessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #eaeaea;
+}
+
+.FormContainer {
+  margin-top: 50px;
+  width: 80%;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 40%);
+}
+
+.NewMessageForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.form-group {
+  width: 90%;
+}
+
+.NoticeTag {
+  margin-bottom: 0px;
+  margin-left: 13px;
+  font-size: 15px;
+}
+
+.RecipientContainer {
+  border-left: 1px solid lightgray;
+  height: 90%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RecepientTitle {
+  border-bottom: 1px solid lightgray;
+  width: 90%;
+  text-align: center;
+}
+
+.RecepientButton {
+  margin: 0px;
+}
+
+button {
+  margin: 0px;
+}
+
+.RecepientInputContainer {
+  width: 90%;
+}
+
+.btn-outline-secondary {
+  background-color: #f3890d;
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  border: 1px solid #f3890d;
+  background-color: white;
+  color: #f3890d;
+}
+
+.input-group-prepend {
+  z-index: 0;
+}
+
+.RecepientList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.RecepientUl {
+  list-style: none;
+  margin-bottom: 0px;
+  width: 90%;
+  padding-left: 0px;
+}
+
+.RecepientUl:not(:last-child) {
+  border-bottom: 1px solid lightgray;
+}
+
+.RecepientLi {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.mb-3 {
+  margin-bottom: 0px !important;
+}
+
+.RecipientErrorMessage {
+  color: red;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 812px) {
+  th {
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  td *:not(a) {
+    font-size: 20px;
+  }
+
+  td {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .FormContainer {
+    flex-direction: column;
+  }
+
+  .RecipientContainer {
+    border-top: 1px solid lightgray;
+    border-left: none;
+    width: 90%;
+  }
+}

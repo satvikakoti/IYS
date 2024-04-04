@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"unique":true,"key":{"id":{"$numberInt":"1"}},"name":"__primary_key__"},{"v":{"$numberInt":"2"},"key":{"message_id":{"$numberInt":"1"}},"name":"app_messagereply_message_id_e5dd8144"}],"uuid":"ee06a99f7d5144ae9a68a2ee31037183","collectionName":"app_messagereply"}

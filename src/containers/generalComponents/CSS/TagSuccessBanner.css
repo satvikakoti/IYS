@@ -1,0 +1,39 @@
+.banner-init-pos {
+  bottom: -100px;
+}
+
+.banner-show-pos {
+  bottom: 0;
+}
+
+.tag-success {
+  background-color: #4a7f39;
+}
+
+.tag-fail {
+  background-color: #ff3333;
+}
+
+.tag-success-effect {
+  background-color: #385f2b;
+}
+
+.tag-fail-effect {
+  background-color: #7b1919;
+}
+
+.alert-icon > span {
+  display: flex;
+  padding: 0.5rem !important;
+  border-radius: 0.5rem;
+  color: #fff;
+}
+
+.alert-icon > p {
+  color: #fff;
+  margin-left: 1rem !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 500;
+}

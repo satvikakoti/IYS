@@ -1,0 +1,50 @@
+@media screen and (max-width: 812px) {
+  .video-button button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  .finished-tagging h3 {
+    font-size: 12px;
+  }
+
+  .finished-tagging button {
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .finished-tagging h3 {
+    font-size: 12px;
+  }
+
+  .finished-tagging button {
+    padding: 5px 10px;
+    font-size: 12px;
+    margin: 10px;
+  }
+}
+
+/* Added styles for buttons to improve UX and visibility */
+.primary-button {
+  background-color: #fcbc2f;
+  min-width: 160px;
+  color: white;
+  border: none;
+}
+
+.primary-button:hover {
+  background-color: #ffca55;
+}
+
+.secondary-button {
+  background-color: #034ff5;
+  min-width: 160px;
+  color: white;
+  border: none;
+}
+
+.secondary-button:hover {
+  background-color: #2f6ffc;
+}

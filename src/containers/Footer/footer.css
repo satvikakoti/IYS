@@ -1,0 +1,19 @@
+.align-right {
+  position: relative;
+  right: -30%;
+}
+
+.align-center {
+  justify-content: center;
+}
+
+.align-left-logo {
+  position: relative;
+  left: 20px;
+}
+
+@media screen and (max-width: 812px) {
+  .align-right {
+    right: -10%;
+  }
+}

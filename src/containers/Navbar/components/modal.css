@@ -1,0 +1,39 @@
+.customOverlay {
+  background: rgba(61, 61, 61, 0.7);
+  color: #2f2f2f;
+}
+.customModal {
+  border-radius: 5px;
+  color: #2f2f2f;
+
+  width: 550px;
+}
+
+.customModal form input {
+  padding: 20px 10px;
+}
+
+@media screen and (max-width: 812px) {
+  .customModal {
+    max-width: 426px;
+  }
+
+  .customModal form input {
+    padding: 10px 5px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .customModal {
+    max-width: 90%;
+  }
+
+  .customModal form input {
+    width: 90%;
+  }
+}
+
+.tagModal {
+  border-radius: 20px;
+  width: 30%;
+}

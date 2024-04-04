@@ -1,0 +1,82 @@
+/*
+	Author	: Luis Ferrer
+	Date 	: 10/26/2020
+	Updated	: 11/26/2020
+*/
+
+div.tag_form {
+  margin: 5px auto;
+  width: 100%;
+}
+
+div#tagcontainer {
+  width: 100%;
+}
+
+table#tag_tbl {
+  margin: auto;
+  width: 100%;
+}
+
+table#tag_tbl th {
+  font-size: 12px;
+  padding: 3px;
+}
+
+table#tag_tbl td {
+  font-size: 10px;
+  padding: 3px;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+#tab_update_block {
+  width: 100%;
+}
+
+.csv_link {
+  margin-bottom: 25px;
+  margin-top: 5px;
+  color: #03f36f;
+  border-style: solid;
+}
+
+h3 {
+  display: inline-block;
+  width: 100%;
+}
+
+@media screen and (max-width: 1380px) {
+  #tag_update_block button {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  table#tag_tbl th {
+    font-size: 15px;
+  }
+
+  table#tag_tbl td {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 812px) {
+  #tag_update_block h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  table#tag_tbl {
+    font-size: 10px;
+  }
+
+  table#tag_tbl th {
+    font-size: 9px;
+  }
+
+  table#tag_tbl td {
+    font-size: 9px;
+  }
+}

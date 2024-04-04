@@ -1,0 +1,27 @@
+/*
+	Author	: Michelle Peters
+	Date 	: 10/21/2020
+	Updated	: 11/26/2020
+*/
+
+#video-list h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+#video-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#video-list button {
+  background-color: white;
+  color: black;
+  font-size: 13px;
+  padding: 1px 6px;
+  border-radius: 5px;
+  margin: 0px 0px;
+  cursor: pointer;
+}

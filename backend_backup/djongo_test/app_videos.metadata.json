@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"djongo_test.app_videos"},{"v":{"$numberInt":"2"},"unique":true,"key":{"id":{"$numberInt":"1"}},"name":"__primary_key__","ns":"djongo_test.app_videos"}],"uuid":"340c156c277d4971aa29d0e4a5517f8d","collectionName":"app_videos"}

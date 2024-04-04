@@ -1,0 +1,82 @@
+.video-upload {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100%;
+}
+
+.video-upload-form {
+  margin: 30px auto 50px auto;
+  padding: 30px;
+  width: 50%;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  text-align: center;
+}
+
+.video-upload h1 {
+  font-size: 30px;
+  color: black;
+  text-align: center;
+}
+
+.video-upload button {
+  margin: 30px 30px;
+}
+
+#title-input {
+  margin: 20px auto;
+  min-width: 200px;
+  width: 80%;
+  height: 25px;
+}
+
+#file-input {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.success-message {
+  background-color: white;
+}
+
+.success-message a {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.success-message h1 {
+  margin-bottom: 20px;
+}
+
+.success-message p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px auto;
+}
+
+@media screen and (max-width: 812px) {
+  .video-upload h1 {
+    font-size: 20px;
+  }
+
+  .video-upload-form {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .success-message a {
+    font-size: 15px;
+  }
+
+  .success-message p {
+    font-size: 15px;
+  }
+}
+
+.alert-message {
+  color: red;
+}

@@ -1,0 +1,38 @@
+/*
+	Author	: Luis Ferrer
+	Date 	: 10/26/2020
+	Updated	: 11/26/2020
+*/
+
+div.tag_form {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+div#tagcontainer{
+    margin: auto;
+}
+
+.tag_form form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+div#tag_update_bloc{
+    margin: auto;
+    width: 50%;
+}
+
+table#tag_tbl{
+    margin: auto;
+}
+
+.csv_link{
+    margin-bottom: 25px;
+    margin-top: 5px;
+    color: #03f36f;
+    border-style: solid;
+}

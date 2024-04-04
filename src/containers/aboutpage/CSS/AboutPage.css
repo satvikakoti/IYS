@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Prata&family=Roboto&display=swap");
+
+.scrollAnimation {
+  overflow: hidden;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.scrollAnimation:not(last-child) {
+  margin-top: 70px;
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 812px) {
+  .scrollAnimation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.References {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  text-align: left;
+}
+
+.ReferencesTitle {
+  margin-bottom: 20px;
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.ClickableLink {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 812px) {
+  .References {
+    font-size: 15px;
+  }
+}

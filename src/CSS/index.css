@@ -1,0 +1,430 @@
+/*
+	Author	: Elijah Ramirez, Luis Ferrer
+	Date 	: 09/28/2020
+	Updated	: 11/25/2020
+*/
+
+/*
+	Author	: Elijah Ramirez, Luis Ferrer
+	Date 	: 09/28/2020
+	Updated	: 11/25/2020
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  margin: auto;
+}
+
+#toc_container {
+  border: 1px solid #fff;
+  border-radius: 5px;
+  display: table;
+  font-size: 95%;
+  margin: auto;
+  padding-right: 40px;
+  width: auto;
+}
+
+.toc_title {
+  font-weight: 700;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.toc_list li a {
+  color: #fff;
+}
+
+.toc_list {
+  padding-left: 50px;
+}
+
+h1#HomeTitle {
+  font-family: "Noto Sans JP", sans-serif;
+  margin-left: 52px;
+  margin-bottom: 0px;
+  color: #000;
+}
+
+/**Nav Appearance**/
+div#firstnav {
+  background-color: #fdad5c;
+  border-bottom: 2px solid #000;
+}
+
+div#firstnav nav {
+  display: flex;
+}
+
+div#firstnav nav a {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
+  font-family: "Roboto", sans-serif;
+}
+
+div#firstnav nav a:hover {
+  background-color: #fff;
+  transition: all 250ms linear;
+}
+
+#login_button {
+  float: right;
+  background-color: #fc8b18;
+  margin: 0px;
+  cursor: pointer;
+}
+
+#sign_out_button {
+  cursor: pointer;
+}
+
+#LoginForm {
+  text-align: center;
+}
+
+#SignUpForm {
+  text-align: center;
+}
+/*****************/
+
+body#main_content {
+  color: #fff;
+  padding: 30px;
+  background-color: #025db9;
+  left: -200px;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+body#main_content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+}
+
+body#main_content h3 {
+  font-size: 23px;
+}
+
+#about_quote {
+  text-align: center;
+}
+
+#quote_author {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#firsthead {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+#about {
+  margin-bottom: 50px;
+}
+
+body#main_content p {
+  width: 70%;
+}
+
+/**Training Page Main Content**/
+
+body#training_main_content {
+  color: #fff;
+  padding: 30px;
+  background-color: #01376d;
+  left: -200px;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 20px 20px;
+}
+
+body#training_main_content h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+}
+
+body#training_main_content h3 {
+  font-size: 23px;
+}
+
+#training_dividers {
+  margin-top: 50px;
+  padding-bottom: 50px;
+  border-bottom: 5px #aaa dotted;
+}
+
+/**User Hub Section**/
+#firsthead_userhub {
+  margin: 0px;
+  padding: 0px 3% 4% 3%;
+}
+
+#userhub_welcome {
+  padding: 0px 0px 0px 3.25%;
+  margin-top: 0px;
+}
+
+/**Training Portal**/
+#preface {
+  padding-bottom: 75px;
+  margin-bottom: 100px;
+  border-bottom: 5px white dashed;
+}
+
+#a_screenshots {
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+#preface p {
+  margin-bottom: 50px;
+}
+
+#documents_header {
+  font-size: 20px;
+}
+
+#doc_title {
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  color: yellow;
+}
+
+#training_file_link a {
+  border: 1px white solid;
+  border-radius: 5px;
+  padding: 55px 20px 20px 20px;
+  color: white;
+  text-decoration: underline;
+  vertical-align: middle;
+}
+
+#training_file_link #zip_icon {
+  width: 55px;
+}
+
+#training_file_info {
+  margin-top: 50px;
+}
+
+#profile_note {
+  font-weight: bold;
+  color: yellow;
+}
+
+/**Project Sponsors Section**/
+#team_name {
+  font-size: 20px;
+  padding-top: 40px;
+}
+
+#team_name_alt {
+  font-size: 20px;
+  padding-top: 60px;
+  text-align: right;
+}
+
+#michelle {
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 3%;
+  overflow: hidden;
+}
+
+#lisa {
+  padding-left: 50px;
+  margin-bottom: 11%;
+  text-align: right;
+}
+
+#lisa_about {
+  overflow: hidden;
+}
+
+#member_about {
+  overflow: hidden;
+}
+
+#michelle_img
+{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin-right: 60px;
+}
+
+#lisa_img
+{
+	float: right;
+	width: 200px;
+	height: 270px;
+	margin-right: 10%;
+	margin-left: 1%;
+}
+
+/**Training Portal Screenshots**/
+
+#screenshots {
+  width: 50%;
+  height: 50%;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+
+/**Modal Section**/
+.modal-form-overlay {
+  position: fixed;
+  width: 20%;
+  right: 40%;
+  top: 20%;
+}
+
+.modal-form-overlay {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+  transform: translateX(0px);
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+#sign_in_transfer,
+#sign_up_transfer {
+  color: blue;
+  border-bottom: 1px solid blue;
+}
+
+/**Slide Show**/
+.alice-carousel ul li img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+#top_button {
+  position: fixed;
+  top: 95%;
+  left: 90%;
+  background: white;
+  padding: 15px 30px 15px 30px;
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 4px 2px 5px;
+}
+
+@media (max-width: 1200px) {
+  #LoginForm h1 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #LoginForm p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #LoginForm a {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .form-button {
+    font-size: 8px;
+    height: 16px;
+    padding: 0px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: block;
+  }
+
+  #LoginForm input {
+    height: 10%;
+    line-height: 10%;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .modal-form-overlay {
+    position: fixed;
+    width: 20%;
+    right: 40%;
+    top: 10%;
+    margin: 0;
+  }
+
+  #SignUpForm h1 {
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #SignUpForm p {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #SignUpForm a {
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+
+  #SignUpForm input {
+    height: 10%;
+    line-height: 10%;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .modal-form-overlay {
+    position: fixed;
+    width: 20%;
+    right: 40%;
+    top: 10%;
+    margin: 0;
+  }
+
+  .errorMessage {
+    font-size: 5px;
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+}

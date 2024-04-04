@@ -1,0 +1,75 @@
+.KeyFeatures {
+  font-weight: normal;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.ContentList li {
+  font-size: 20px;
+}
+
+.HomePageSubtext {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.HomePageTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+p {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.StepsDiagram {
+  width: 800px !important;
+  height: 600px !important;
+}
+
+@media screen and (max-width: 812px) {
+  .KeyFeatures {
+    font-size: 25px;
+  }
+
+  .ContentList li {
+    font-size: 18px;
+  }
+
+  .HomePageSubtext {
+    font-size: 18px;
+    width: 90%;
+  }
+
+  .HomePageTitle {
+    font-size: 25px;
+  }
+
+  .StepsDiagram {
+    width: 400px !important;
+    height: 300px !important;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .ContentList li {
+    font-size: 15px;
+  }
+
+  .HomePageSubtext {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .StepsDiagram {
+    width: 300px !important;
+    height: 225px !important;
+  }
+}

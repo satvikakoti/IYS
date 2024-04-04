@@ -1,0 +1,144 @@
+/*
+	Author	: Elijah Ramirez
+	Date 	: 10/20/2020
+	Updated	: 11/25/2020
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+h1 {
+	color: black;
+}
+
+/*Hub icon formatting*/
+#hub_icons
+{
+	float: right;
+}
+
+/*Flex container for the grid modules*/
+#hub_links
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+/*User Hub button format*/
+.hub_button {
+	padding: 0px 20px 20px 20px;
+	margin: 5px;
+	border: 2px black solid;
+	border-radius: 10px;
+	background-color: white;
+	width: 75%;
+	height: auto;
+	color: black;
+}
+
+.hub_button button{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #FFF;
+	border-radius: 12px;
+	padding: 0px;
+	border: 1px black solid;
+}
+
+.hub_button button a{
+	display: block;
+	border-radius: 12px;
+	width: 150px;
+	padding: 15px;
+}
+
+.hub_button button:hover {
+  background-color: orange;
+  transition: all 250ms linear;
+}
+
+/*List content inside modules*/
+ul
+{
+	padding-left: 20px;
+}
+
+li
+{
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+
+/*Grid-style modules*/
+#top_group
+{
+	order: 1;
+	display: flex;
+}
+
+
+#bot_group
+{
+	order: 2;
+	display: flex;
+}
+
+
+/*Pagination for the user videos.*/
+.pagination {
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	cursor: pointer;
+	padding-left: 0px;
+	margin-top: 25px;
+}
+
+.pagination a {
+	padding: 7px;
+	border-radius: 10px;
+	border: 1px solid black;
+	color: white;
+	background-color: #025db9;
+}
+
+/*User Profile form formatting*/
+#user_prof_form
+{
+	margin-left: 30%;
+	margin-right: 30%;
+	overflow:hidden;
+}
+
+#user_prof_form label
+{
+	display: inline-block;
+	width: 140px;
+}
+
+#user_prof_form p
+{
+	text-align: center;
+	margin: 20px 20px 20px 15%;
+}
+
+/*input boxes in general*/
+input
+{
+  border-radius: 4px;
+  height: 30px;
+}
+
+/*user profile text inputs*/
+#profile_input
+{
+	border: 1px solid black;
+}
+
+/*buttons in general*/
+button
+{
+	margin: 15px;
+	padding: 10px 20px 10px 20px;
+	border-radius: 4px;
+}

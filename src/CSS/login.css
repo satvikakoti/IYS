@@ -1,0 +1,25 @@
+/*
+	Author	: Elijah Ramirez
+	Date 	: 10/14/2020
+	Updated	: 11/26/2020
+*/
+
+form 
+{
+	text-align: center;
+	max-height: 50%;
+}
+
+button 
+{
+	text-align: center;
+}
+
+@media (max-width: 1200px) {
+	.errorMessage
+	{
+		font-size: 8px;
+		padding: 0px;
+		margin: 0px
+	}
+}

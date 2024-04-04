@@ -1,0 +1,319 @@
+.AdminHubContainer {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100%;
+}
+
+.AdminHubForm {
+  margin: 30px auto 50px auto;
+  padding: 30px;
+  width: 80%;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  align-items: center;
+}
+
+.AdminPages {
+  margin: auto;
+}
+
+.UserLabel {
+  width: 15%;
+  text-align: left;
+  margin-right: 20px;
+}
+
+.UserInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.UserInfoTitle {
+  display: block;
+  font-weight: normal;
+  width: 100%;
+  color: rgb(63, 63, 63);
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #eaeaea;
+  font-size: 30px;
+}
+
+.UserInfoTitle:is(th) {
+  padding: 0px;
+}
+
+.Errors {
+  color: red;
+  margin: 0px;
+}
+
+.UserVideoContainer {
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.UserMessagesContainer {
+  border-radius: 5px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.UserVideoTable thead {
+  border: 0;
+}
+
+.UserMessagesTable {
+  width: 100%;
+}
+
+.UserMessagesTable thead {
+  border: 0;
+}
+
+.AllUsersTable {
+  width: 100%;
+}
+
+.ViewUserTable {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.TitleSearchContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.AllMessagesTableContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.View_VideoContainer {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.VideoContainer {
+  width: fit-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.VideoErrorMessage {
+  border: 1.5px solid rgb(155, 155, 155);
+  border-radius: 5px;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ErrorMessage {
+  font-size: 20px;
+}
+
+.AllVideosTableContainer {
+  width: 100%;
+  align-items: center;
+}
+
+.AllVideosTable {
+  width: 100%;
+}
+
+.paginationBttns {
+  padding-top: 30px;
+  width: 80%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.paginationBttns a {
+  padding: 5px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(49, 49, 49);
+  color: rgb(49, 49, 49);
+}
+
+.paginationBttns a:hover {
+  background-color: rgb(194, 194, 194);
+}
+
+.PaginationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.UserUpdateButton {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.CheckBoxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.ActiveLabel {
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+.UserInformationContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.UserInfoContainer > * {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.InformationContainers {
+  width: 100%;
+}
+
+.InputContainer {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.InputContainer input {
+  width: 30%;
+}
+
+.VideoTagsContainer {
+  width: 100%;
+}
+
+.VideoTagsTable {
+  width: 100%;
+}
+
+.input-group {
+  width: auto;
+  margin: 0;
+}
+
+.TimeStampColumn {
+  position: relative;
+  width: 50%;
+}
+
+.TimeStampColumn div {
+  display: inline;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.DeleteIcon {
+  cursor: pointer;
+  float: right;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 812px) {
+  .AdminHubForm {
+    margin: 30px auto 50px auto;
+    padding: 10px;
+    width: 90%;
+  }
+
+  .AllVideosTableContainer {
+    width: 95%;
+  }
+
+  .AllVideosTable {
+    margin: auto;
+  }
+
+  .AllUsersTable th {
+    font-size: 13px;
+  }
+
+  .AllUsersTable td {
+    font-size: 11px;
+  }
+
+  .InputContainer label {
+    width: 30%;
+    font-size: 12px;
+  }
+
+  .InputContainer input {
+    width: 60%;
+    font-size: 12px;
+  }
+
+  .InputContainer {
+    text-align: center;
+  }
+
+  .TitleSearchContainer h1 {
+    font-size: 30px;
+  }
+
+  .TitleSearchContainer {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .AllUsersTable th {
+    font-size: 9px;
+  }
+
+  .AllVideosTableContainer {
+    width: 100%;
+  }
+
+  .AllUsersTable td {
+    font-size: 8px;
+  }
+
+  .TitleSearchContainer h1 {
+    font-size: 25px;
+  }
+
+  .TitleSearchContainer {
+    display: block;
+  }
+
+  .TitleSearchContainer input {
+    width: 70%;
+  }
+}

@@ -1,0 +1,142 @@
+.MessageReplysContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.ReplyTable {
+  width: 80%;
+  margin-top: 15px;
+}
+
+.NoInviteMessageContainer {
+  width: 100%;
+  min-height: calc(100vh - 40px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.NoInviteInner {
+  border: 2px solid rgb(207, 207, 207);
+  display: flex;
+  width: 80%;
+  height: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ViewMessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.TextAreaContainer {
+  width: 80%;
+}
+
+.ReplyTextBox {
+  margin-top: 30px;
+  width: 100%;
+  border-color: rgb(207, 207, 207);
+}
+
+.ReplyForm {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.SpinnerContainer {
+  height: 1000px;
+}
+
+.AuthorReplyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ReplyContentSection {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100%;
+}
+
+.MessagesReplyForm {
+  margin: 30px auto 50px auto;
+  padding: 30px 0px;
+  width: 60%;
+  min-width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
+.ViewMessageAdmin {
+  border: 1.5px solid rgb(155, 155, 155);
+  border-radius: 5px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TitleAdmin {
+  font-size: 30px;
+  color: rgb(63, 63, 63);
+}
+
+.AllMessagesTableContainer {
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.AllMessagesTable {
+  width: 100%;
+}
+
+.AllMessagesContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.InvitedContentSection {
+  width: 100%;
+}
+
+.InviteUserContainer {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.InviteUser {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 20%;
+}
+
+.InviteUserErrorMessage {
+  margin: 0px;
+  color: red;
+}

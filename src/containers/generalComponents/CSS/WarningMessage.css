@@ -1,0 +1,7 @@
+.notif-show {
+  display: flex;
+}
+
+.notif-hide {
+  display: none;
+}

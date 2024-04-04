@@ -1,0 +1,40 @@
+.logo-header h2 {
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.logo-header p {
+  font-size: 14px;
+}
+
+.logo-footer h2 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.logo-footer p {
+  font-size: 20px;
+}
+
+.other-page p,
+.other-page h2 {
+  color: #f3890d !important;
+}
+
+@media screen and (max-width: 812px) {
+  .logo-header h2 {
+    font-size: 22px;
+  }
+
+  .logo-footer h2 {
+    font-size: 16px;
+  }
+
+  .logo-footer p {
+    font-size: 15px;
+  }
+
+  .logo-header p {
+    font-size: 12px;
+  }
+}

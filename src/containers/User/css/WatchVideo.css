@@ -1,0 +1,284 @@
+/*
+	Author	: Elijah Ramirez
+	Date 	: 10/11/2020
+	Updated	: 11/26/2020
+*/
+
+textarea {
+  resize: none;
+}
+
+.watch-video-container {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.watch-video-form {
+  margin: 30px auto 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.PendingVideo {
+  flex-direction: column;
+}
+
+.video-container {
+  flex: 0 1 55%;
+  min-width: 50%;
+}
+
+.tag-container {
+  flex: 0 1 35%;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  padding: 10px 0px;
+  width: 100%;
+}
+
+.tag-detail-selection {
+  display: flex;
+  width: 100%;
+}
+
+.tag-detail-selection > * {
+  flex-basis: 33%;
+  margin: 10px 30px;
+  padding: 5px;
+  border: 2px solid #eaeaea;
+}
+
+.tag_form form {
+  display: flex;
+  flex-direction: column;
+  width: 100% !important;
+}
+
+.tag_form form label {
+  text-align: left;
+}
+
+.tag_form form button {
+  margin: 10px auto;
+}
+
+.ReviewVideo {
+  flex-direction: column;
+}
+
+.TagCountError {
+  color: red;
+}
+
+@media screen and (max-width: 1380px) {
+  .watch-video-container {
+    flex-direction: column;
+  }
+
+  .WatchVideo {
+    display: block;
+  }
+
+  .watch-video-form {
+    margin: 10px auto;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+
+  .video-container,
+  .tag-container {
+    width: 90%;
+    flex: 0;
+  }
+}
+
+.TagsViewTable {
+  width: 100%;
+}
+
+.DropDownFieldContainer {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.DropDownFieldContainer select {
+  width: 200px;
+}
+
+.TagsTable th {
+  font-size: 15px;
+}
+
+.TagsTable td {
+  padding: 10px;
+}
+
+.TagsTable {
+  width: 100%;
+}
+
+.TagInfoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.TimestampColumn {
+  text-align: center;
+}
+
+.EditIcon {
+  float: right;
+  font-size: 10px;
+}
+
+.EditTagsForm {
+  margin-right: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.TagsViewTable thead tr th {
+  font-size: 15px;
+  padding: 10px;
+  width: 100px;
+}
+
+.customModal {
+  width: 80%;
+}
+
+.ViewMore {
+  margin: 0px;
+}
+
+.TagEditButton {
+  background-color: #dedede;
+  color: #292929;
+}
+
+.EditTagButtonContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.TagEditButton {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.CommentContainer {
+  margin-top: 5px;
+}
+
+.TagEditButton:not(:last-child) {
+  margin-right: 5px;
+}
+
+.CommentTextArea {
+  width: 100%;
+}
+
+.CloseWindowContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 812px) {
+  .react-video-wrap {
+    height: 90% !important;
+    width: 90% !important;
+  }
+
+  .player {
+    padding: 0;
+  }
+
+  .watch-video-form {
+    padding: 10px;
+  }
+
+  .tag-detail-selection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .tag-detail-selection > * {
+    margin: 10px 0px;
+    font-size: 13px;
+  }
+
+  textarea {
+    font-size: 13px;
+  }
+
+  .TagInfoContainer {
+    overflow: auto;
+    white-space: nowrap;
+    border: 1px solid gray;
+  }
+
+  .TagInfoContainer table {
+    text-align: center;
+    text-decoration: none;
+    padding: 14px;
+    text-decoration: none;
+  }
+
+  .TagsTableContainer {
+    overflow: auto;
+    white-space: nowrap;
+    border: 1px solid gray;
+  }
+
+  .TagsTableContainer table {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 10px;
+    text-decoration: none;
+  }
+
+  .SelectContainer {
+    width: 100%;
+  }
+
+  .SelectContainer select {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .CommentLabel {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .EditTagButtonContainer {
+    font-size: 13px;
+  }
+
+  .TagEditButton {
+    padding: 10px;
+  }
+
+  .DropDownFieldContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

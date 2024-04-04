@@ -1,0 +1,40 @@
+.video-upload h1{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.video-upload button {
+  margin: 30px 30px;
+}
+
+#title-input {
+    margin: 20px 20px;
+    width: 300px;
+    height: 25px;
+}
+
+#file-input {
+    margin-bottom: 20px;
+}
+
+.success-message {
+    margin-top: 50px;
+}
+
+.success-message a {
+    margin-top: 50px;
+    padding-top: 50px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.success-message h1 {
+    margin-bottom: 70px;
+}
+
+.success-message p {
+    font-size: 15px;
+    font-weight: bold;
+}
